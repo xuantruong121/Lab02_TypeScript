@@ -15,4 +15,4 @@ exports.asyncRandomNumber = new Promise((resolve, reject) => {
 exports.asyncRandomNumber
     .then((num) => console.log("Random number:", num))
     .catch((error) => console.error("Error:", error.message))
-    .finally(() => console.log("Done")); // Luôn chạy khi Promise kết thúc
+    .finally(() => console.log("Done"));
