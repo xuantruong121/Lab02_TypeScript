@@ -7,7 +7,7 @@ async function downloadFile(filename) {
         setTimeout(() => {
             console.log(`Download completed: ${filename}`);
             resolve();
-        }, 3000); // 3 giây
+        }, 3000);
     });
 }
 // Test
